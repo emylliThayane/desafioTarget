@@ -1,0 +1,61 @@
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+R: O veículo que percorrer menos distância até o encontro estará mais próximo da cidade de Ribeirão Preto.
+
+Vamos começar determinando o tempo que cada veículo levará para percorrer a distância entre as duas cidades, considerando 
+a velocidade e os pedágios:
+
+Carro: A distância entre as duas cidades é de 100 km, e a velocidade do carro é de 110 km/h. Portanto, o tempo que o carro 
+levará para percorrer essa distância é de:
+
+tempo = distância / velocidade
+tempo = 100 / 110
+tempo = 0,91 horas (ou 54,6 minutos)
+
+Caminhão: O caminhão também percorrerá a distância de 100 km, mas levará 5 minutos a mais para passar em cada pedágio, 
+totalizando 10 minutos (ou 0,17 horas) a mais que o carro. Portanto, o tempo que o caminhão levará para percorrer essa distância é de:
+
+tempo = distância / velocidade
+tempo = 100 / 80
+tempo = 1,25 horas (ou 75 minutos)
+
+Agora podemos usar a fórmula da distância para calcular onde o encontro ocorrerá. Como os veículos estão se aproximando um do 
+outro, a distância total que eles percorrerão até o encontro será de 100 km. Portanto, podemos usar a fórmula:
+
+distância = velocidade * tempo
+
+Para o carro, temos:
+
+100 = 110 * tempo_carro
+tempo_carro = 0,91 horas
+
+Para o caminhão, temos:
+
+100 = 80 * tempo_caminhão
+tempo_caminhão = 1,25 horas
+
+Isso significa que o encontro ocorrerá 0,91 horas após o carro sair de Ribeirão Preto e 1,25 horas após o caminhão sair de Franca. 
+Agora podemos calcular a distância que cada veículo percorrerá até o encontro:
+
+Carro: A velocidade do carro é de 110 km/h, portanto ele percorrerá uma distância de:
+
+distância = velocidade * tempo
+distância = 110 * 0,91
+distância = 100,1 km
+
+Caminhão: A velocidade do caminhão é de 80 km/h, portanto ele percorrerá uma distância de:
+
+distância = velocidade * tempo
+distância = 80 * 1,25
+distância = 100 km
+
+Como podemos ver, o carro percorrerá 100,1 km até o encontro, enquanto o 
+caminhão percorrerá 100 km. Portanto, o carro estará mais próximo da cidade de Ribeirão Preto no momento do encontro.
